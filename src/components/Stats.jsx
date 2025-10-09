@@ -2,23 +2,23 @@ export default function Stats() {
   const stats = [
     {
       number: "10+",
-      label: "年行业经验",
-      description: "深耕FA工业自动化领域"
+      label: "years of industry experience",
+      description: "Deeply cultivated in the field of FA industrial automation"
     },
     {
       number: "1000+",
-      label: "合作客户",
-      description: "遍布全球的优质客户群体"
+      label: "Cooperating customers",
+      description: "High-quality customer base around the world"
     },
     {
       number: "50+",
-      label: "专业团队",
-      description: "资深工程师和技术专家"
+      label: "Professional team",
+      description: "Senior engineers and technical experts"
     },
     {
       number: "99%",
-      label: "客户满意度",
-      description: "优质服务获得客户认可"
+      label: "customer satisfaction",
+      description: "High-quality services are recognized by customers"
     }
   ]
 
@@ -30,7 +30,7 @@ export default function Stats() {
             实力见证
           </h2>
           <p className="text-xl text-blue-200 max-w-3xl mx-auto">
-            用数据说话，用实力证明我们在工业自动化领域的专业地位
+            Let data speak and use strength to prove our professional status in the field of industrial automation
           </p>
         </div>
 

@@ -4,10 +4,10 @@ export default function Contact() {
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="text-center mb-16">
           <h2 className="text-4xl md:text-5xl font-bold text-gray-900 mb-4">
-            联系我们
+            Contact us
           </h2>
           <p className="text-xl text-gray-600 max-w-3xl mx-auto">
-            期待与您的合作，为您提供专业的工业自动化解决方案
+            We look forward to cooperating with you and providing you with professional industrial automation solutions.
           </p>
         </div>
 
@@ -15,7 +15,7 @@ export default function Contact() {
           {/* Contact Information */}
           <div className="space-y-8">
             <div className="bg-white rounded-lg p-8 shadow-lg">
-              <h3 className="text-2xl font-bold text-gray-900 mb-6">联系信息</h3>
+              <h3 className="text-2xl font-bold text-gray-900 mb-6">contact information</h3>
 
               <div className="space-y-6">
                 <div className="flex items-start space-x-4">
@@ -26,8 +26,8 @@ export default function Contact() {
                     </svg>
                   </div>
                   <div>
-                    <h4 className="text-lg font-semibold text-gray-900 mb-1">公司地址</h4>
-                    <p className="text-gray-600">深圳市宝安区松岗街道燕川社区燕湖路62号</p>
+                    <h4 className="text-lg font-semibold text-gray-900 mb-1">Company address</h4>
+                    <p className="text-gray-600">No. 62, Yanhu Road, Yanchuan Community, Songgang Street, Baoan District, Shenzhen City</p>
                   </div>
                 </div>
 
@@ -38,7 +38,7 @@ export default function Contact() {
                     </svg>
                   </div>
                   <div>
-                    <h4 className="text-lg font-semibold text-gray-900 mb-1">联系电话</h4>
+                    <h4 className="text-lg font-semibold text-gray-900 mb-1">Contact number</h4>
                     <p className="text-gray-600">+86-755-12345678</p>
                   </div>
                 </div>
@@ -50,7 +50,7 @@ export default function Contact() {
                     </svg>
                   </div>
                   <div>
-                    <h4 className="text-lg font-semibold text-gray-900 mb-1">邮箱地址</h4>
+                    <h4 className="text-lg font-semibold text-gray-900 mb-1">Email address</h4>
                     <p className="text-gray-600">info@wodtop.com</p>
                   </div>
                 </div>
@@ -62,8 +62,8 @@ export default function Contact() {
                     </svg>
                   </div>
                   <div>
-                    <h4 className="text-lg font-semibold text-gray-900 mb-1">工作时间</h4>
-                    <p className="text-gray-600">周一至周五：9:00-18:00</p>
+                    <h4 className="text-lg font-semibold text-gray-900 mb-1">working hours</h4>
+                    <p className="text-gray-600">Monday to Friday: 9:00-18:00</p>
                   </div>
                 </div>
               </div>
@@ -72,28 +72,28 @@ export default function Contact() {
 
           {/* Contact Form */}
           <div className="bg-white rounded-lg p-8 shadow-lg">
-            <h3 className="text-2xl font-bold text-gray-900 mb-6">发送消息</h3>
+            <h3 className="text-2xl font-bold text-gray-900 mb-6">Send message</h3>
 
             <form className="space-y-6">
               <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
                 <div>
                   <label className="block text-sm font-medium text-gray-700 mb-2">
-                    姓名
+                    Name
                   </label>
                   <input 
                     type="text" 
                     className="w-full px-4 py-3 border border-gray-300 rounded-lg focus:ring-2 focus:ring-blue-500 focus:border-transparent transition-colors duration-200"
-                    placeholder="请输入您的姓名"
+                    placeholder="Please enter your name"
                   />
                 </div>
                 <div>
                   <label className="block text-sm font-medium text-gray-700 mb-2">
-                    公司
+                    company
                   </label>
                   <input 
                     type="text" 
                     className="w-full px-4 py-3 border border-gray-300 rounded-lg focus:ring-2 focus:ring-blue-500 focus:border-transparent transition-colors duration-200"
-                    placeholder="请输入公司名称"
+                    placeholder="Please enter company name"
                   />
                 </div>
               </div>
@@ -101,45 +101,45 @@ export default function Contact() {
               <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
                 <div>
                   <label className="block text-sm font-medium text-gray-700 mb-2">
-                    邮箱
+                    Mail
                   </label>
                   <input 
                     type="email" 
                     className="w-full px-4 py-3 border border-gray-300 rounded-lg focus:ring-2 focus:ring-blue-500 focus:border-transparent transition-colors duration-200"
-                    placeholder="请输入邮箱地址"
+                    placeholder="Please enter email address"
                   />
                 </div>
                 <div>
                   <label className="block text-sm font-medium text-gray-700 mb-2">
-                    电话
+                    Telephone
                   </label>
                   <input 
                     type="tel" 
                     className="w-full px-4 py-3 border border-gray-300 rounded-lg focus:ring-2 focus:ring-blue-500 focus:border-transparent transition-colors duration-200"
-                    placeholder="请输入联系电话"
+                    placeholder="Please enter contact number"
                   />
                 </div>
               </div>
 
               <div>
                 <label className="block text-sm font-medium text-gray-700 mb-2">
-                  主题
+                  Theme
                 </label>
                 <input 
                   type="text" 
                   className="w-full px-4 py-3 border border-gray-300 rounded-lg focus:ring-2 focus:ring-blue-500 focus:border-transparent transition-colors duration-200"
-                  placeholder="请输入消息主题"
+                  placeholder="Please enter message subject"
                 />
               </div>
 
               <div>
                 <label className="block text-sm font-medium text-gray-700 mb-2">
-                  消息内容
+                  Message content
                 </label>
                 <textarea 
                   rows={6}
                   className="w-full px-4 py-3 border border-gray-300 rounded-lg focus:ring-2 focus:ring-blue-500 focus:border-transparent transition-colors duration-200 resize-vertical"
-                  placeholder="请详细描述您的需求或问题..."
+                  placeholder="Please describe your needs or questions in detail..."
                 ></textarea>
               </div>
 
@@ -147,7 +147,7 @@ export default function Contact() {
                 type="submit"
                 className="w-full px-8 py-4 bg-blue-600 text-white font-semibold rounded-lg hover:bg-blue-700 transform hover:scale-105 transition-all duration-300 shadow-lg hover:shadow-xl"
               >
-                发送消息
+                Send message
               </button>
             </form>
           </div>

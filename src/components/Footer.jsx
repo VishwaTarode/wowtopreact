@@ -11,7 +11,7 @@ export default function Footer() {
               className="h-12 w-auto filter brightness-0 invert"
             />
             <p className="text-gray-400 text-sm leading-relaxed">
-              深圳市天一智能科技有限公司专业从事FA工厂自动化精密零件、工装检测治具及自动化设备的研发、设计、生产、销售和服务。
+              Shenzhen Tianyi Intelligent Technology Co., Ltd. specializes in the R&D, design, production, sales and service of FA factory automation precision parts, tooling inspection fixtures and automation equipment.
             </p>
             <div className="flex space-x-4">
               <a href="#" className="text-gray-400 hover:text-white transition-colors duration-200">
@@ -34,26 +34,26 @@ export default function Footer() {
 
           {/* Products */}
           <div className="space-y-4">
-            <h3 className="text-lg font-semibold">产品中心</h3>
+            <h3 className="text-lg font-semibold">Product Center</h3>
             <ul className="space-y-2">
               <li>
                 <a href="#fa-parts" className="text-gray-400 hover:text-white transition-colors duration-200">
-                  FA工业自动化零件
+                  FA industrial automation parts
                 </a>
               </li>
               <li>
                 <a href="#fixtures" className="text-gray-400 hover:text-white transition-colors duration-200">
-                  治载具
+                  governance vehicle
                 </a>
               </li>
               <li>
                 <a href="#automation" className="text-gray-400 hover:text-white transition-colors duration-200">
-                  自动化设备
+                  Automation equipment
                 </a>
               </li>
               <li>
                 <a href="#solutions" className="text-gray-400 hover:text-white transition-colors duration-200">
-                  行业解决方案
+                  Industry solutions
                 </a>
               </li>
             </ul>
@@ -61,26 +61,26 @@ export default function Footer() {
 
           {/* Support */}
           <div className="space-y-4">
-            <h3 className="text-lg font-semibold">技术支持</h3>
+            <h3 className="text-lg font-semibold">Technical support</h3>
             <ul className="space-y-2">
               <li>
                 <a href="#service" className="text-gray-400 hover:text-white transition-colors duration-200">
-                  服务体系
+                  Service system
                 </a>
               </li>
               <li>
                 <a href="#downloads" className="text-gray-400 hover:text-white transition-colors duration-200">
-                  资料下载
+                  Data download
                 </a>
               </li>
               <li>
                 <a href="#support" className="text-gray-400 hover:text-white transition-colors duration-200">
-                  技术咨询
+                  Technical consultation
                 </a>
               </li>
               <li>
                 <a href="#training" className="text-gray-400 hover:text-white transition-colors duration-200">
-                  培训服务
+                  training services
                 </a>
               </li>
             </ul>
@@ -88,7 +88,7 @@ export default function Footer() {
 
           {/* Contact */}
           <div className="space-y-4">
-            <h3 className="text-lg font-semibold">联系我们</h3>
+            <h3 className="text-lg font-semibold">Contact us</h3>
             <div className="space-y-3">
               <div className="flex items-start space-x-3">
                 <svg className="w-5 h-5 text-blue-400 mt-0.5 flex-shrink-0" fill="none" stroke="currentColor" viewBox="0 0 24 24">
@@ -96,7 +96,7 @@ export default function Footer() {
                   <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M15 11a3 3 0 11-6 0 3 3 0 016 0z" />
                 </svg>
                 <p className="text-gray-400 text-sm">
-                  深圳市宝安区松岗街道燕川社区燕湖路62号
+                  No. 62, Yanhu Road, Yanchuan Community, Songgang Street, Baoan District, Shenzhen City
                 </p>
               </div>
               <div className="flex items-center space-x-3">
@@ -119,19 +119,19 @@ export default function Footer() {
         <div className="border-t border-gray-800 mt-12 pt-8 flex flex-col md:flex-row justify-between items-center space-y-4 md:space-y-0">
           <div className="flex flex-col md:flex-row items-center space-y-2 md:space-y-0 md:space-x-6">
             <p className="text-gray-400 text-sm">
-              © 2024 深圳市天一智能科技有限公司. 保留所有权利.
+              © 2024 Shenzhen Tianyi Intelligent Technology Co., Ltd. All rights reserved.
             </p>
             <div className="flex space-x-4">
               <a href="#privacy" className="text-gray-400 hover:text-white text-sm transition-colors duration-200">
-                隐私政策
+                privacy policy
               </a>
               <a href="#terms" className="text-gray-400 hover:text-white text-sm transition-colors duration-200">
-                使用条款
+                terms of use
               </a>
             </div>
           </div>
           <div className="flex items-center space-x-4">
-            <span className="text-gray-400 text-sm">粤ICP备xxxxxxxx号</span>
+            <span className="text-gray-400 text-sm">Guangdong ICP No. xxxxxxxx</span>
           </div>
         </div>
       </div>

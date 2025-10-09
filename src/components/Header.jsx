@@ -28,13 +28,13 @@ export default function Header() {
           {/* Desktop Navigation */}
           <nav className="hidden lg:flex items-center space-x-8">
             <a href="#home" className="text-gray-700 hover:text-blue-600 font-medium transition-colors duration-200">
-              首页
+              Home
             </a>
 
             {/* Products Dropdown */}
             <div className="relative group">
               <button className="text-gray-700 hover:text-blue-600 font-medium transition-colors duration-200 flex items-center">
-                产品中心
+                Product Center
                 <svg className="ml-1 h-4 w-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                   <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M19 9l-7 7-7-7" />
                 </svg>
@@ -42,13 +42,13 @@ export default function Header() {
               <div className="absolute top-full left-0 mt-2 w-64 bg-white rounded-lg shadow-lg opacity-0 invisible group-hover:opacity-100 group-hover:visible transition-all duration-300">
                 <div className="py-2">
                   <a href="#fa-parts" className="block px-4 py-2 text-gray-700 hover:bg-blue-50 hover:text-blue-600 transition-colors duration-200">
-                    FA工业自动化零件
+                    FA industrial automation parts
                   </a>
                   <a href="#fixtures" className="block px-4 py-2 text-gray-700 hover:bg-blue-50 hover:text-blue-600 transition-colors duration-200">
-                    治载具
+                    governance vehicle
                   </a>
                   <a href="#automation" className="block px-4 py-2 text-gray-700 hover:bg-blue-50 hover:text-blue-600 transition-colors duration-200">
-                    自动化设备
+                    Automation equipment
                   </a>
                 </div>
               </div>
@@ -57,7 +57,7 @@ export default function Header() {
             {/* Technical Support Dropdown */}
             <div className="relative group">
               <button className="text-gray-700 hover:text-blue-600 font-medium transition-colors duration-200 flex items-center">
-                技术支持
+                Technical support
                 <svg className="ml-1 h-4 w-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                   <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M19 9l-7 7-7-7" />
                 </svg>
@@ -65,13 +65,13 @@ export default function Header() {
               <div className="absolute top-full left-0 mt-2 w-64 bg-white rounded-lg shadow-lg opacity-0 invisible group-hover:opacity-100 group-hover:visible transition-all duration-300">
                 <div className="py-2">
                   <a href="#solutions" className="block px-4 py-2 text-gray-700 hover:bg-blue-50 hover:text-blue-600 transition-colors duration-200">
-                    行业解决方案
+                    Industry solutions
                   </a>
                   <a href="#service" className="block px-4 py-2 text-gray-700 hover:bg-blue-50 hover:text-blue-600 transition-colors duration-200">
-                    服务体系
+                    Service system
                   </a>
                   <a href="#downloads" className="block px-4 py-2 text-gray-700 hover:bg-blue-50 hover:text-blue-600 transition-colors duration-200">
-                    资料下载
+                    Data download
                   </a>
                 </div>
               </div>
@@ -80,7 +80,7 @@ export default function Header() {
             {/* About Us Dropdown */}
             <div className="relative group">
               <button className="text-gray-700 hover:text-blue-600 font-medium transition-colors duration-200 flex items-center">
-                关于我们
+                About Us
                 <svg className="ml-1 h-4 w-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                   <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M19 9l-7 7-7-7" />
                 </svg>
@@ -88,40 +88,40 @@ export default function Header() {
               <div className="absolute top-full left-0 mt-2 w-64 bg-white rounded-lg shadow-lg opacity-0 invisible group-hover:opacity-100 group-hover:visible transition-all duration-300">
                 <div className="py-2">
                   <a href="#about" className="block px-4 py-2 text-gray-700 hover:bg-blue-50 hover:text-blue-600 transition-colors duration-200">
-                    集团简介
+                    Group Profile
                   </a>
                   <a href="#history" className="block px-4 py-2 text-gray-700 hover:bg-blue-50 hover:text-blue-600 transition-colors duration-200">
-                    发展历程
+                    Development history
                   </a>
                   <a href="#honors" className="block px-4 py-2 text-gray-700 hover:bg-blue-50 hover:text-blue-600 transition-colors duration-200">
-                    集团荣誉
+                    Group honors
                   </a>
                   <a href="#layout" className="block px-4 py-2 text-gray-700 hover:bg-blue-50 hover:text-blue-600 transition-colors duration-200">
-                    产业布局
+                    Industrial layout
                   </a>
                 </div>
               </div>
             </div>
 
             <a href="#news" className="text-gray-700 hover:text-blue-600 font-medium transition-colors duration-200">
-              新闻资讯
+              News
             </a>
             <a href="#contact" className="text-gray-700 hover:text-blue-600 font-medium transition-colors duration-200">
-              联系我们
+              Contact us
             </a>
             <a href="#video" className="text-gray-700 hover:text-blue-600 font-medium transition-colors duration-200">
-              形象影片
+              Image video
             </a>
 
             {/* Language Toggle */}
-            <div className="flex items-center space-x-2 ml-4">
+            {/*<div className="flex items-center space-x-2 ml-4">
               <button className="px-3 py-1 text-sm bg-blue-600 text-white rounded transition-colors duration-200">
                 CN
               </button>
               <button className="px-3 py-1 text-sm text-gray-700 hover:bg-gray-100 rounded transition-colors duration-200">
                 EN
               </button>
-            </div>
+            </div>*/}
           </nav>
 
           {/* Mobile menu button */}
@@ -144,25 +144,25 @@ export default function Header() {
           <div className="lg:hidden py-4 border-t border-gray-200">
             <div className="space-y-2">
               <a href="#home" className="block px-4 py-2 text-gray-700 hover:bg-gray-100 rounded transition-colors duration-200">
-                首页
+                Home
               </a>
               <a href="#products" className="block px-4 py-2 text-gray-700 hover:bg-gray-100 rounded transition-colors duration-200">
-                产品中心
+                Product Center
               </a>
               <a href="#support" className="block px-4 py-2 text-gray-700 hover:bg-gray-100 rounded transition-colors duration-200">
-                技术支持
+                Technical support
               </a>
               <a href="#about" className="block px-4 py-2 text-gray-700 hover:bg-gray-100 rounded transition-colors duration-200">
-                关于我们
+                about Us
               </a>
               <a href="#news" className="block px-4 py-2 text-gray-700 hover:bg-gray-100 rounded transition-colors duration-200">
-                新闻资讯
+                News
               </a>
               <a href="#contact" className="block px-4 py-2 text-gray-700 hover:bg-gray-100 rounded transition-colors duration-200">
-                联系我们
+                Contact us
               </a>
               <a href="#video" className="block px-4 py-2 text-gray-700 hover:bg-gray-100 rounded transition-colors duration-200">
-                形象影片
+                image video
               </a>
             </div>
           </div>

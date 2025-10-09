@@ -13,18 +13,18 @@ export default function Hero() {
             WODTOP
           </h1>
           <p className="text-xl md:text-2xl lg:text-3xl text-blue-100 mb-4 font-light">
-            深圳市天一智能科技有限公司
+            Wowtop., Ltd.
           </p>
           <p className="text-lg md:text-xl text-blue-200 mb-12 max-w-4xl mx-auto leading-relaxed">
-            专业从事FA工厂自动化精密零件、工装检测治具及自动化设备的研发、设计、生产、销售和服务
+            Specializing in the R&D, design, production, sales and service of FA factory automation precision parts, tooling inspection fixtures and automation equipment
           </p>
 
           <div className="flex flex-col sm:flex-row items-center justify-center space-y-4 sm:space-y-0 sm:space-x-6">
             <button className="px-8 py-4 bg-white text-blue-900 font-semibold rounded-lg shadow-lg hover:shadow-xl transform hover:scale-105 transition-all duration-300">
-              了解更多
+              learn more
             </button>
             <button className="px-8 py-4 border-2 border-white text-white font-semibold rounded-lg hover:bg-white hover:text-blue-900 transition-all duration-300">
-              产品中心
+              Product Center
             </button>
           </div>
         </div>
@@ -32,7 +32,7 @@ export default function Hero() {
         {/* Scroll Down Indicator */}
         <div className="absolute bottom-8 left-1/2 transform -translate-x-1/2 animate-bounce">
           <div className="flex flex-col items-center text-white">
-            <span className="text-sm mb-2">向下滑动</span>
+            <span className="text-sm mb-2">Slide down</span>
             <svg className="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24">
               <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M19 14l-7 7m0 0l-7-7m7 7V3" />
             </svg>
