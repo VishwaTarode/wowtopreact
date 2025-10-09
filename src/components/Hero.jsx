@@ -10,7 +10,7 @@ export default function Hero() {
       <div className="relative z-10 max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
         <div className="animate-fade-in-up">
           <h1 className="text-4xl md:text-6xl lg:text-7xl font-bold text-white mb-6 leading-tight">
-            WODTOP
+            WOWTOP
           </h1>
           <p className="text-xl md:text-2xl lg:text-3xl text-blue-100 mb-4 font-light">
             Wowtop., Ltd.

@@ -1,12 +1,13 @@
+
 export default function Footer() {
   return (
     <footer className="bg-gray-900 text-white">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-16">
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
-          {/* Company Info */}
+          {/* Company Info https://www.wodtop.com/uploads/img1/20220517/6283469c86903.png*/}
           <div className="space-y-4">
             <img 
-              src="https://www.wodtop.com/uploads/img1/20220517/6283469c86903.png" 
+              src="6283469c86903.png" 
               alt="WODTOP"
               className="h-12 w-auto filter brightness-0 invert"
             />

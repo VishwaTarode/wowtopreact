@@ -18,7 +18,7 @@ export default function News() {
     },
     {
       id: 3,
-      title: "参加2024年工业自动化展览会",
+      title: "Attend the 2024 Industrial Automation Exhibition",
       excerpt: "The company will bring its latest products to the Shenzhen International Industrial Automation and Robotics Exhibition to showcase our latest technological achievements in the field of FA industrial automation.",
       date: "2024-01-05",
       category: "Industry trends",

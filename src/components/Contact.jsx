@@ -51,7 +51,7 @@ export default function Contact() {
                   </div>
                   <div>
                     <h4 className="text-lg font-semibold text-gray-900 mb-1">Email address</h4>
-                    <p className="text-gray-600">info@wodtop.com</p>
+                    <p className="text-gray-600">info@WOWTOP.com</p>
                   </div>
                 </div>
 

@@ -19,8 +19,8 @@ export default function Header() {
           {/* Logo */}
           <div className="flex items-center">
             <img 
-              src="https://www.wodtop.com/uploads/img1/20220517/6283469c86903.png" 
-              alt="WODTOP"
+              src="6283469c86903.png" 
+              alt="WOWTOP"
               className="h-12 w-auto"
             />
           </div>
