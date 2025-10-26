@@ -39,7 +39,7 @@ export default function News() {
         </div>
 
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
-          {newsItems.map((item, index) => (
+         {/*} {newsItems.map((item, index) => (
             <article 
               key={item.id}
               className="bg-white rounded-lg shadow-lg overflow-hidden hover:shadow-xl transform hover:scale-105 transition-all duration-300 animate-fade-in"
@@ -74,13 +74,19 @@ export default function News() {
               </div>
             </article>
           ))}
+          */}
+
         </div>
 
-        <div className="text-center mt-12">
+          <div style={{ display: 'flex', justifyContent: 'center'}}>
+          <a style={{ color: '#000000',    fontSize: '3rem', backgroundColor: '#f9bc00db',fontWeight: '700', padding: '10px' }}>Coming Soon</a>
+          </div>
+
+        {/*<div className="text-center mt-12">
           <button className="px-8 py-3 bg-blue-600 text-white font-semibold rounded-lg hover:bg-blue-700 transform hover:scale-105 transition-all duration-300">
             View more news
           </button>
-        </div>
+        </div>*/}
       </div>
     </section>
   )

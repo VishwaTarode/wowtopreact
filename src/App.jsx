@@ -5,6 +5,10 @@ import Stats from './components/Stats'
 import News from './components/News'
 import Contact from './components/Contact'
 import Footer from './components/Footer'
+import Product from './components/Product'
+import Solutions from './components/Solutions'
+import Services from './components/Services'
+import ScrollToTop from './components/ScrollToTop'
 
 function App() {
   return (
@@ -12,10 +16,14 @@ function App() {
       <Header />
       <Hero />
       <About />
+      <Product />
       <Stats />
+      <Solutions />
       <News />
+      <Services />
       <Contact />
       <Footer />
+      <ScrollToTop />
     </div>
   )
 }

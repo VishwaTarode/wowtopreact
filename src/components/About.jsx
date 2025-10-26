@@ -1,4 +1,14 @@
+import { useState, useEffect } from 'react'
+
 export default function About() {
+        const handleScrollClickContactusA = () => {
+    document.getElementById("contact")?.scrollIntoView({ behavior: "smooth" });
+  };
+
+        const handleScrollClickNewsA = () => {
+    document.getElementById("news")?.scrollIntoView({ behavior: "smooth" });
+  };
+
   return (
     <section id="about" className="py-20 bg-gray-50">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
@@ -7,7 +17,7 @@ export default function About() {
             About Us
           </h2>
           <p className="text-xl text-gray-600 max-w-3xl mx-auto">
-            Shenzhen Tianyi Intelligent Technology Co., Ltd. was established in 2013 and focuses on innovation and development in the field of FA industrial automation.
+            WOWTOP TECHNOLOGY PRIVATE LIMITED, established in July 2015, is a high-tech enterprise specializing in Factory Automation (FA) precision components and automation equipment.
           </p>
         </div>
 
@@ -16,24 +26,30 @@ export default function About() {
           <div className="space-y-6">
             <div className="animate-fade-in">
               <h3 className="text-2xl font-bold text-gray-900 mb-4">
-                Company Profile
+                The company’s core business covers
               </h3>
               <p className="text-gray-600 leading-relaxed mb-6">
-                Shenzhen Tianyi Intelligent Technology Co., Ltd. (WOWTOP) was established in December 2013. It is mainly engaged in the research and development, design, production, sales and service of FA (Factory Automation) factory automation precision parts, tooling and inspection jigs and automation equipment.
+                <b>R&D and manufacturing of precision automation components,</b> including pneumatic parts, rolling functional components, high-precision adjustment platforms, 4-axis robots, aluminum profiles, industrial robots, control modules, transmitters, and sensors.
               </p>
               <p className="text-gray-600 leading-relaxed mb-6">
-                The company's business covers pneumatic components, rolling functional parts, high-precision frequency adjustment units, axis robots, aluminum profiles, industrial robots, industrial control modules, transmitters and sensors and other FA factory automation precision parts.
+                <b>Design and production of tooling and inspection fixtures</b>
+              </p>
+              <p className="text-gray-600 leading-relaxed mb-6">
+                <b>Development, system integration, sales, and services</b> for<b> automation equipment and production lines.</b>Through continuous <b>technological innovation</b> and <b>product development</b>, WOWTOP provides high-performance FA precision standard solutions that help customers enhance productivity and enable a more automated and efficient manufacturing environment.Currently, the company focuses on two key application areas in its tooling, inspection fixtures, and automation systems business.
+              </p>
+              <p className="text-gray-600 leading-relaxed mb-6">
+                <b>Consumer electronics </b>– including smartphones and wearable devices
               </p>
               <p className="text-gray-600 leading-relaxed">
-                Based on application scenarios, the company's tooling and inspection fixtures and automation equipment business currently focus on the two major application fields of consumer electronics such as smartphones and smart wearable devices, as well as automotive electronics.。
+                <b>Automotive electronics</b> Looking ahead, WOWTOP plans to expand its solution offerings into a broader range of FA automation applications. With a strategic focus on <b>precision FA standard components</b> and <b>intelligent equipment</b>, the company aims to <b>scale rapidly</b>, become a <b>leading brand in the industry</b>, support <b>India’s industrial transformation</b>, and contribute to building a <b>global manufacturing hub</b>
               </p>
             </div>
 
             <div className="flex flex-col sm:flex-row space-y-4 sm:space-y-0 sm:space-x-4">
-              <button className="px-6 py-3 bg-blue-600 text-white font-semibold rounded-lg hover:bg-blue-700 transform hover:scale-105 transition-all duration-300">
+              <button onClick={handleScrollClickNewsA} className="px-6 py-3 bg-blue-600 text-white font-semibold rounded-lg hover:bg-blue-700 transform hover:scale-105 transition-all duration-300">
                 learn more
               </button>
-              <button className="px-6 py-3 border-2 border-blue-600 text-blue-600 font-semibold rounded-lg hover:bg-blue-600 hover:text-white transition-all duration-300">
+              <button onClick={handleScrollClickContactusA} className="px-6 py-3 border-2 border-blue-600 text-blue-600 font-semibold rounded-lg hover:bg-blue-600 hover:text-white transition-all duration-300">
                 Contact us
               </button>
             </div>

@@ -15,7 +15,7 @@ export default function Contact() {
           {/* Contact Information */}
           <div className="space-y-8">
             <div className="bg-white rounded-lg p-8 shadow-lg">
-              <h3 className="text-2xl font-bold text-gray-900 mb-6">contact information</h3>
+              <h3 className="text-2xl font-bold text-gray-900 mb-6">Contact Information</h3>
 
               <div className="space-y-6">
                 <div className="flex items-start space-x-4">
@@ -27,7 +27,7 @@ export default function Contact() {
                   </div>
                   <div>
                     <h4 className="text-lg font-semibold text-gray-900 mb-1">Company address</h4>
-                    <p className="text-gray-600">No. 62, Yanhu Road, Yanchuan Community, Songgang Street, Baoan District, Shenzhen City</p>
+                    <p className="text-gray-600">Plot No. 234 of Hitech Defence & Aerospace Park, Phase-2 Industrial Area, Bengaluru, Karnataka, India – 562135</p>
                   </div>
                 </div>
 
@@ -39,7 +39,7 @@ export default function Contact() {
                   </div>
                   <div>
                     <h4 className="text-lg font-semibold text-gray-900 mb-1">Contact number</h4>
-                    <p className="text-gray-600">+86-755-12345678</p>
+                    <p className="text-gray-600">+91-7337872496</p>
                   </div>
                 </div>
 
@@ -51,7 +51,7 @@ export default function Contact() {
                   </div>
                   <div>
                     <h4 className="text-lg font-semibold text-gray-900 mb-1">Email address</h4>
-                    <p className="text-gray-600">info@WOWTOP.com</p>
+                    <p className="text-gray-600">sales@wowtop.in</p>
                   </div>
                 </div>
 
@@ -63,15 +63,29 @@ export default function Contact() {
                   </div>
                   <div>
                     <h4 className="text-lg font-semibold text-gray-900 mb-1">working hours</h4>
-                    <p className="text-gray-600">Monday to Friday: 9:00-18:00</p>
+                    <p className="text-gray-600">Monday to Saturday 9:00-18:00</p>
                   </div>
                 </div>
               </div>
             </div>
+            <div id="maplocation" className="bg-white rounded-lg p-8 shadow-lg" >
+                <iframe
+    src="https://www.google.com/maps/embed?pb=!1m17!1m12!1m3!1d8334.18881279101!2d77.77429888552082!3d13.22877910185169!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m2!1m1!2zMTPCsDEzJzQ5LjciTiA3N8KwNDYnMzkuNCJF!5e0!3m2!1sen!2sin!4v1760671775564!5m2!1sen!2sin"
+    width="100%"
+    height="450"
+    style={{ border: 0 }}
+    allowFullScreen
+    loading="lazy"
+    referrerPolicy="no-referrer-when-downgrade"
+  ></iframe>
+            </div>
+
+
+
           </div>
 
           {/* Contact Form */}
-          <div className="bg-white rounded-lg p-8 shadow-lg">
+          <div className="bg-white rounded-lg p-8 shadow-lg" style={{height: 'fit-content'}}>
             <h3 className="text-2xl font-bold text-gray-900 mb-6">Send message</h3>
 
             <form className="space-y-6">
