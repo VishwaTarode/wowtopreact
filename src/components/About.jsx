@@ -17,7 +17,7 @@ export default function About() {
             About Us
           </h2>
           <p className="text-xl text-gray-600 max-w-3xl mx-auto">
-            WOWTOP TECHNOLOGY PRIVATE LIMITED, established in July 2015, is a high-tech enterprise specializing in Factory Automation (FA) precision components and automation equipment.
+            WOWTOP TECHNOLOGY PRIVATE LIMITED, established in July 2025, is a high-tech enterprise specializing in Factory Automation (FA) precision components and automation equipment.
           </p>
         </div>
 
