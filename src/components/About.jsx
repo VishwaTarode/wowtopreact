@@ -18,8 +18,8 @@ export default function About() {
             <img src="image/founder/founder.jpeg" alt="Automated Assembly & Production Line"/>
           </div>
           <div class="fcontent">
-            {/*<div class="pnumber">1</div>*/}
-            <h2>Automated Assembly & Production Line</h2>
+            {/*<div class="pnumber">1</div>
+            <h2>Automated Assembly & Production Line</h2>*/}
             <p>Ganeshi Pradhan, founder of WOWTOP Technology, previously worked with several Chinese enterprises in India and had multiple business visits to China. During this period, he established strong connections with partners specializing in CNC precision component manufacturing.</p>
             <p>In 2023, after engaging with several experienced CNC partners, he recognized the tremendous potential and growing demand for CNC machinery and precision components within India’s rapidly developing manufacturing sector.</p>
             <p>Motivated by this vision, he returned to India and, together with Poina Sarah, co-founded WOWTOP Technology Private Limited, aiming to integrate China’s advanced precision-manufacturing expertise with India’s emerging industrial market.</p>
