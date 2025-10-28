@@ -1,5 +1,5 @@
 import { useState, useEffect } from 'react'
-
+import "./../../dist/assets/founder.css?v1";
 export default function About() {
         const handleScrollClickContactusA = () => {
     document.getElementById("contact")?.scrollIntoView({ behavior: "smooth" });
@@ -12,6 +12,21 @@ export default function About() {
   return (
     <section id="about" className="py-20 bg-gray-50">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+
+        <div class="fsection">
+          <div class="fimage">
+            <img src="image/founder/founder.jpeg" alt="Automated Assembly & Production Line"/>
+          </div>
+          <div class="fcontent">
+            {/*<div class="pnumber">1</div>*/}
+            <h2>Automated Assembly & Production Line</h2>
+            <p>Ganeshi Pradhan, founder of WOWTOP Technology, previously worked with several Chinese enterprises in India and had multiple business visits to China. During this period, he established strong connections with partners specializing in CNC precision component manufacturing.</p>
+            <p>In 2023, after engaging with several experienced CNC partners, he recognized the tremendous potential and growing demand for CNC machinery and precision components within India’s rapidly developing manufacturing sector.</p>
+            <p>Motivated by this vision, he returned to India and, together with Poina Sarah, co-founded WOWTOP Technology Private Limited, aiming to integrate China’s advanced precision-manufacturing expertise with India’s emerging industrial market.</p>
+            <p>With the mission to empower India’s industrial development and the vision to become the country’s No. 1 CNC leader, WOWTOP is committed to driving innovation, precision, and progress across India’s manufacturing landscape.</p>
+          </div>
+        </div>
+
         <div className="text-center mb-16">
           <h2 className="text-4xl md:text-5xl font-bold text-gray-900 mb-4">
             About Us
