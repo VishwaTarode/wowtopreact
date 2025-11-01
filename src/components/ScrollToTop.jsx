@@ -14,7 +14,11 @@ export default function ScrollToTop() {
   }, []);
 
   const scrollToTop = () => {
-    window.scrollTo({ top: 0, behavior: "smooth" });
+    //window.scrollTo({ top: 0, behavior: "smooth" });
+    const homeSection1 = document.getElementById("home");
+    if (homeSection1) {
+      homeSection1.scrollIntoView({ behavior: "smooth" });
+    }
   };
 
   return (
