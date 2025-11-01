@@ -21,6 +21,9 @@ export default function Hero() {
       behavior: "smooth",
     });*/
     document.getElementById("about")?.scrollIntoView({ behavior: "smooth" });
+  };  
+  const handleScrollClickp = () => {
+    document.getElementById("product")?.scrollIntoView({ behavior: "smooth" });
   };
 
   return (
@@ -58,7 +61,7 @@ export default function Hero() {
             <button className="px-8 py-4 bg-white text-blue-900 font-semibold rounded-lg shadow-lg hover:shadow-xl transform hover:scale-105 transition-all duration-300">
               Learn More
             </button>
-            <button className="px-8 py-4 border-2 border-white text-white font-semibold rounded-lg hover:bg-white hover:text-blue-900 transition-all duration-300">
+            <button onClick={handleScrollClickp} className="px-8 py-4 border-2 border-white text-white font-semibold rounded-lg hover:bg-white hover:text-blue-900 transition-all duration-300">
               Product
             </button>
           </div>
