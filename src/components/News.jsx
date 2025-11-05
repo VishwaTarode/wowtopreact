@@ -193,7 +193,7 @@ export default function News() {
           </div>
         </div>
 
-        {/* Coming Soon */}
+        {/* Coming Soon 
         <div className="flex justify-center">
           <span
             style={{
@@ -207,7 +207,7 @@ export default function News() {
           >
             Coming Soon
           </span>
-        </div>
+        </div>*/}
       </div>
     </section>
   );

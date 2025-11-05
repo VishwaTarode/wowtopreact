@@ -8,6 +8,7 @@ import Footer from './components/Footer'
 import Product from './components/Product'
 import Solutions from './components/Solutions'
 import Services from './components/Services'
+import Corevalue from './components/Corevalue'
 import ScrollToTop from './components/ScrollToTop'
 
 function App() {
@@ -17,6 +18,7 @@ function App() {
       <Hero />
       <About />
       <Product />
+      <Corevalue />
       <Stats />
       <Solutions />
       <News />

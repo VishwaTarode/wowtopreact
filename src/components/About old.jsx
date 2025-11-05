@@ -9,10 +9,6 @@ export default function About() {
     document.getElementById("news")?.scrollIntoView({ behavior: "smooth" });
   };
 
-          const handleScrollClickcorevalueA = () => {
-    document.getElementById("corevalue")?.scrollIntoView({ behavior: "smooth" });
-  };
-
   return (
     <section id="about" className="py-20 bg-gray-50">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
@@ -44,9 +40,9 @@ export default function About() {
         <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
           {/* Company Introduction */}
           <div className="space-y-6">
-            {/*<div className="animate-fade-in">
+            <div className="animate-fade-in">
               <h3 className="text-2xl font-bold text-gray-900 mb-4">
-                The company’s core business covers
+                The1 company’s core business covers
               </h3>
               <p className="text-gray-600 leading-relaxed mb-6">
                 <b>R&D and manufacturing of precision automation components,</b> including pneumatic parts, rolling functional components, high-precision adjustment platforms, 4-axis robots, aluminum profiles, industrial robots, control modules, transmitters, and sensors.
@@ -63,49 +59,10 @@ export default function About() {
               <p className="text-gray-600 leading-relaxed">
                 <b>Automotive electronics</b> Looking ahead, WOWTOP plans to expand its solution offerings into a broader range of FA automation applications. With a strategic focus on <b>precision FA standard components</b> and <b>intelligent equipment</b>, the company aims to <b>scale rapidly</b>, become a <b>leading brand in the industry</b>, support <b>India’s industrial transformation</b>, and contribute to building a <b>global manufacturing hub</b>
               </p>
-            </div>*/}
-
-            <div className="animate-fade-in">
-              <ul className="text-gray-600 leading-relaxed mb-6">
-                <li>
-                  <p>&ensp;❖R&amp;D and manufacturing of precision automation components, including pneumatic parts, rolling functional components, high-precision adjustment platforms, 4-axis robots, aluminum profiles, industrial robots, control modules, transmitters, and sensors.</p>
-                </li>
-
-                <li>
-                  <p>&ensp;❖Design and production of tooling and inspection fixtures.</p>
-                </li>
-
-                <li>
-                  <p>&ensp;❖Development, system integration, sales, and services for automation equipment and production lines.</p>
-                </li>
-              </ul>
-              <p className="text-gray-600 leading-relaxed mb-6">
-                Through continuous technological innovation and product development, WOWTOP provides high-performance FA precision standard solutions that help customers enhance productivity and enable a more automated and efficient manufacturing environment.
-              <br></br>
-                Currently, the company focuses on two key application areas in its tooling, inspection fixtures, and automation systems business:
-              
-              </p>
-              
-              
-              <ul className="text-gray-600 leading-relaxed mb-6">
-                <li>
-                  <p>&ensp;❖Consumer electronics – including smartphones and wearable devices</p>
-                </li>
-                <li>
-                  <p>&ensp;❖Automotive electronics</p>
-                </li>
-              </ul>
-
-
-              <p className="text-gray-600 leading-relaxed mb-6">
-                Looking ahead, WOWTOP plans to expand its solution offerings into a broader range of FA automation applications. With a strategic focus on precision FA standard components and intelligent equipment, the company aims to scale rapidly, become a leading brand in the industry, support India industrial transformation, and contribute to building a global manufacturing hub.
-              </p>
-              
             </div>
-            
 
             <div className="flex flex-col sm:flex-row space-y-4 sm:space-y-0 sm:space-x-4">
-              <button onClick={handleScrollClickcorevalueA} className="px-6 py-3 bg-blue-600 text-white font-semibold rounded-lg hover:bg-blue-700 transform hover:scale-105 transition-all duration-300">
+              <button onClick={handleScrollClickNewsA} className="px-6 py-3 bg-blue-600 text-white font-semibold rounded-lg hover:bg-blue-700 transform hover:scale-105 transition-all duration-300">
                 learn more
               </button>
               <button onClick={handleScrollClickContactusA} className="px-6 py-3 border-2 border-blue-600 text-blue-600 font-semibold rounded-lg hover:bg-blue-600 hover:text-white transition-all duration-300">

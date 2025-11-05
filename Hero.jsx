@@ -1,4 +1,14 @@
 export default function Hero() {
+
+  
+          const handleScrollClickcorevalueH = () => {
+    document.getElementById("product")?.scrollIntoView({ behavior: "smooth" });
+  };
+          const handleScrollClickProductH=() =>{
+            document.getElementById("product")?.scrollIntoView({behavior:"smooth"});
+          };
+
+
   return (
     <section id="home" className="relative min-h-screen bg-gradient-to-br from-blue-900 via-blue-800 to-blue-900 flex items-center justify-center overflow-hidden">
       {/* Background Pattern */}
@@ -20,10 +30,10 @@ export default function Hero() {
           </p>
 
           <div className="flex flex-col sm:flex-row items-center justify-center space-y-4 sm:space-y-0 sm:space-x-6">
-            <button className="px-8 py-4 bg-white text-blue-900 font-semibold rounded-lg shadow-lg hover:shadow-xl transform hover:scale-105 transition-all duration-300">
-              learn more
+            <button onClick={handleScrollClickcorevalueH} className="px-8 py-4 bg-white text-blue-900 font-semibold rounded-lg shadow-lg hover:shadow-xl transform hover:scale-105 transition-all duration-300">
+              learn1 more
             </button>
-            <button className="px-8 py-4 border-2 border-white text-white font-semibold rounded-lg hover:bg-white hover:text-blue-900 transition-all duration-300">
+            <button onClick={handleScrollClickProductH} className="px-8 py-4 border-2 border-white text-white font-semibold rounded-lg hover:bg-white hover:text-blue-900 transition-all duration-300">
               Product
             </button>
           </div>

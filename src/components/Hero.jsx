@@ -25,6 +25,9 @@ export default function Hero() {
   const handleScrollClickp = () => {
     document.getElementById("product")?.scrollIntoView({ behavior: "smooth" });
   };
+  const handleScrollcorevalue = () => {
+    document.getElementById("corevalue")?.scrollIntoView({ behavior: "smooth" });
+  };
 
   return (
     <section
@@ -58,7 +61,7 @@ export default function Hero() {
           </p>
 
           <div className="flex flex-col sm:flex-row items-center justify-center space-y-4 sm:space-y-0 sm:space-x-6">
-            <button className="px-8 py-4 bg-white text-blue-900 font-semibold rounded-lg shadow-lg hover:shadow-xl transform hover:scale-105 transition-all duration-300">
+            <button onClick={handleScrollcorevalue} className="px-8 py-4 bg-white text-blue-900 font-semibold rounded-lg shadow-lg hover:shadow-xl transform hover:scale-105 transition-all duration-300">
               Learn More
             </button>
             <button onClick={handleScrollClickp} className="px-8 py-4 border-2 border-white text-white font-semibold rounded-lg hover:bg-white hover:text-blue-900 transition-all duration-300">
