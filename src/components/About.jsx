@@ -1,5 +1,5 @@
 import { useState, useEffect } from 'react'
-import "./../../dist/assets/founder.css?v1";
+import "./../../public/assets/founder.css?v1";
 export default function About() {
         const handleScrollClickContactusA = () => {
     document.getElementById("contact")?.scrollIntoView({ behavior: "smooth" });

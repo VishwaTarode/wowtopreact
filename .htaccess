@@ -1,0 +1,14 @@
+# Serve JS, CSS, and WASM correctly
+AddType application/javascript .js
+AddType text/css .css
+AddType application/wasm .wasm
+
+# React SPA Routing
+<IfModule mod_rewrite.c>
+  RewriteEngine On
+  RewriteBase /
+  RewriteRule ^index\.html$ - [L]
+  RewriteCond %{REQUEST_FILENAME} !-f
+  RewriteCond %{REQUEST_FILENAME} !-d
+  RewriteRule . /index.html [L]
+</IfModule>

@@ -1,4 +1,4 @@
-import "./../../dist/assets/corevalue.css?v1";
+import "./../../public/assets/corevalue.css?v1";
 
 export default function corevalue() {
 

@@ -29,7 +29,7 @@
 }*/}
 {/*
 import React from "react";
-import "./../../dist/assets/news.css?v1";
+import "./../../public/assets/news.css?v1";
 
 export default function News() {
   return (

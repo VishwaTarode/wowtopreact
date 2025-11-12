@@ -1,4 +1,4 @@
-import "./../../dist/assets/services.css?v2";
+import "./../../public/assets/services.css?v2";
 
 export default function Services() {
 

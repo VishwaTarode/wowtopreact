@@ -1,5 +1,5 @@
 import { useState, useEffect } from 'react'
-import "./../../dist/assets/header.css?v122";
+import "./../../public/assets/header.css?v122";
 
 export default function Header() {
   const [isMenuOpen, setIsMenuOpen] = useState(false)

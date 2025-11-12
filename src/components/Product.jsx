@@ -1,4 +1,4 @@
-import "./../../dist/assets/product.css?v5";
+import "./../../public/assets/product.css?v5";
 {/*export default function Product() {
   const productItems = [
     {

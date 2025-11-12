@@ -1,4 +1,4 @@
-import "./../../dist/assets/product.css?v10";
+import "./../../public/assets/product.css?v10";
 
 export default function Solutions() {
 
