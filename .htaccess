@@ -3,7 +3,7 @@ AddType application/javascript .js
 AddType text/css .css
 AddType application/wasm .wasm
 
-# React SPA Routing
+# React SPA fallback (for routing)
 <IfModule mod_rewrite.c>
   RewriteEngine On
   RewriteBase /
