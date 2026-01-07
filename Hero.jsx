@@ -23,7 +23,7 @@ export default function Hero() {
             WOWTOP
           </h1>
           <p className="text-xl md:text-2xl lg:text-3xl text-blue-100 mb-4 font-light">
-            Wowtop., Ltd.
+            Wowtop Technology Pvt Ltd.
           </p>
           <p className="text-lg md:text-xl text-blue-200 mb-12 max-w-4xl mx-auto leading-relaxed">
             Specializing in the R&D, design, production, sales and service of FA factory automation precision parts, tooling inspection fixtures and automation equipment

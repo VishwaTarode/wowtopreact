@@ -13,33 +13,33 @@ export default function Solutions() {
 
         <div className="">
 
-          <div class="scontainer">
+          <div className="scontainer">
 
-    <div class="ssection">
-      <div class="simage">
+    <div className="ssection">
+      <div className="simage">
         <img src="image/solutions/ConsumerElectronics.png" alt="Automated Assembly & Solutionsion Line"/>
       </div>
-      <div class="scontent">
+      <div className="scontent">
         <h2>Consumer Electronics</h2>
         <p>WOWTOP provides complete <strong>automation solutions for consumer electronics production lines</strong> to our clients and industry partners.We are committed to integrating with supply chain partners to deliver the <strong>most competitive solutions</strong> and <strong>highest-quality services</strong> to our customers.</p>
       </div>
     </div>
 
-    <div class="ssection">
-      <div class="simage">
+    <div className="ssection">
+      <div className="simage">
         <img src="image/solutions/AutomotiveElectronics.png" alt="Precision Tooling & Inspection Fixture"/>
       </div>
-      <div class="scontent">
+      <div className="scontent">
         <h2>Automotive Electronics</h2>
         <p>Through its <strong>standard parts manufacturing bases</strong> and <strong>service networks</strong> across major regions, WOWTOP leverages strong<strong>R&D capabilities and advanced production processes </strong>to combine<strong>cross-industry advantages, </strong>thereby creating greater value for customers in the automotive electronics sector.</p>
       </div>
     </div>
 
-    <div class="ssection">
-      <div class="simage">
+    <div className="ssection">
+      <div className="simage">
         <img src="image/solutions/OtherIndustries.png" alt="FA Precision Components & Standard Parts"/>
       </div>
-      <div class="scontent">
+      <div className="scontent">
         <h2>Other Industries</h2>
         <p>As a leading domestic manufacturer of FA (Factory Automation) standard components, WOWTOP addresses common industry challenges and provides specialized solutions based on application scenarios.We offer standardized design and component selection for automation equipment and are dedicated to delivering professional services to clients across a wide range of industries.</p>
       </div>

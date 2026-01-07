@@ -13,18 +13,18 @@ export default function About() {
     <section id="about" className="py-20 bg-gray-50">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
 
-        <div class="fsection">
-          <div class="fimage">
+        <div className="fsection">
+          <div className="fimage">
             <img src="image/founder/founder.jpeg" alt="Automated Assembly & Production Line"/>
           </div>
-          <div class="fcontent">
-            {/*<div class="pnumber">1</div>
+          <div className="fcontent">
+            {/*<div className="pnumber">1</div>
             <h2>Automated Assembly & Production Line</h2>*/}
-            {/*<p>Ganeshi Pradhan, founder of WOWTOP Technology, previously worked with several Chinese enterprises in India and had multiple business visits to China. During this period, he established strong connections with partners specializing in CNC precision component manufacturing.</p>
+            {/*<p>Ganesh Pradhan, founder of WOWTOP Technology, previously worked with several Chinese enterprises in India and had multiple business visits to China. During this period, he established strong connections with partners specializing in CNC precision component manufacturing.</p>
             <p>In 2023, after engaging with several experienced CNC partners, he recognized the tremendous potential and growing demand for CNC machinery and precision components within India’s rapidly developing manufacturing sector.</p>
             <p>Motivated by this vision, he returned to India and, together with Poina Sarah, co-founded WOWTOP Technology Private Limited, aiming to integrate China’s advanced precision-manufacturing expertise with India’s emerging industrial market.</p>
             <p>With the mission to empower India’s industrial development and the vision to become the country’s No. 1 CNC leader, WOWTOP is committed to driving innovation, precision, and progress across India’s manufacturing landscape.</p>*/}
-            <p>Ganeshi Pradhan, founder of WOWTOP Technology, previously collaborated with several Chinese enterprises in India and made multiple business trips to China. During this time, he built strong connections with partners specializing in CNC precision component manufacturing.In 2023, after working closely with experienced CNC partners, he identified the significant growth potential and rising demand for CNC machinery and precision components in India’s rapidly expanding manufacturing sector.Motivated by this vision, he returned to India and, together with Poina Sarah, co-founded WOWTOP Technology Private Limited, aiming to integrate China’s advanced precision manufacturing expertise with India’s emerging industrial market.With a mission to empower India’s industrial development and a vision to become the nation’s leading CNC enterprise, WOWTOP is dedicated to driving innovation, precision, and progress across India’s manufacturing landscape.</p>
+            <p>Ganesh Pradhan, founder of WOWTOP Technology, previously collaborated with several Chinese enterprises in India and made multiple business trips to China. During this time, he built strong connections with partners specializing in CNC precision component manufacturing.In 2023, after working closely with experienced CNC partners, he identified the significant growth potential and rising demand for CNC machinery and precision components in India’s rapidly expanding manufacturing sector.Motivated by this vision, he returned to India and, together with Poina Sarah, co-founded WOWTOP Technology Private Limited, aiming to integrate China’s advanced precision manufacturing expertise with India’s emerging industrial market.With a mission to empower India’s industrial development and a vision to become the nation’s leading CNC enterprise, WOWTOP is dedicated to driving innovation, precision, and progress across India’s manufacturing landscape.</p>
           </div>
         </div>
 
@@ -33,7 +33,7 @@ export default function About() {
             About Us
           </h2>
           <p className="text-xl text-gray-600 max-w-3xl mx-auto">
-            WOWTOP TECHNOLOGY PRIVATE LIMITED, established in July 2015, is a high-tech enterprise specializing in Factory Automation (FA) precision components and automation equipment. The company core business covers:
+            WOWTOP TECHNOLOGY PRIVATE LIMITED, established in August 2025, is a high-tech enterprise specializing in Factory Automation (FA) precision components and automation equipment. The company core business covers:
           </p>
         </div>
 

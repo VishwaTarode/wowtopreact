@@ -102,36 +102,36 @@ export default function Product() {
 
         <div className="">
 
-          <div class="pcontainer">
+          <div className="pcontainer">
 
-    <div class="psection">
-      <div class="pimage">
+    <div className="psection">
+      <div className="pimage">
         <img src="image/product/automated.jpg" alt="Automated Assembly & Production Line"/>
       </div>
-      <div class="pcontent">
-        {/*<div class="pnumber">1</div>*/}
+      <div className="pcontent">
+        {/*<div className="pnumber">1</div>*/}
         <h2>Automated Assembly & Production Line</h2>
         <p><strong>Description:</strong> High-precision <strong>automated assembly and production line</strong> designed for consumer electronics and automotive applications. It integrates advanced motion control, visual inspection, and robotic handling technologies to achieve fully automated, high-efficiency, and stable manufacturing processes.</p>
       </div>
     </div>
 
-    <div class="psection">
-      <div class="pimage">
+    <div className="psection">
+      <div className="pimage">
         <img src="image/product/FAPrecision.jpg" alt="Precision Tooling & Inspection Fixture"/>
       </div>
-      <div class="pcontent">
-        {/*<div class="pnumber">2</div>*/}
+      <div className="pcontent">
+        {/*<div className="pnumber">2</div>*/}
         <h2>Precision Tooling & Inspection Fixture</h2>
         <p><strong>Description:</strong> Custom-designed <strong>tooling and inspection fixture</strong> used for positioning, clamping, and functional testing of components such as smartphones and wearable devices. Ensures high repeatability, dimensional accuracy, and improved product quality during the assembly and inspection stages.</p>
       </div>
     </div>
 
-    <div class="psection">
-      <div class="pimage">
+    <div className="psection">
+      <div className="pimage">
         <img src="image/product/Precision.jpg" alt="FA Precision Components & Standard Parts"/>
       </div>
-      <div class="pcontent">
-        {/*<div class="pnumber">3</div>*/}
+      <div className="pcontent">
+        {/*<div className="pnumber">3</div>*/}
         <h2>FA Precision Components & Standard Parts</h2>
         <p><strong>Description:</strong> Comprehensive range of <strong>FA (Factory Automation) precision components and standard mechanical parts</strong>, including linear bearings, couplings, brackets, pneumatic elements, aluminum profiles, and structural frames. These components are the building blocks for automation systems, robotic platforms, and custom equipment.</p>
       </div>

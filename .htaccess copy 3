@@ -1,6 +1,6 @@
 # Serve JS, CSS, and WASM correctly
-AddType application/javascript .js
-AddType text/css .css
+##AddType application/javascript .js
+##AddType text/css .css
 AddType application/wasm .wasm
 
 # React SPA fallback (for routing)
@@ -12,8 +12,4 @@ AddType application/wasm .wasm
   RewriteCond %{REQUEST_FILENAME} !-d
   RewriteRule . /index.html [L]
 </IfModule>
-<IfModule mod_headers.c>
-  Header always set Cache-Control "no-store, no-cache, must-revalidate, max-age=0"
-  Header always set Pragma "no-cache"
-  Header always set Expires "0"
-</IfModule>
+*/
