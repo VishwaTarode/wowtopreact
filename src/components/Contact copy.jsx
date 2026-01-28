@@ -27,7 +27,7 @@ export default function Contact() {
                   </div>
                   <div>
                     <h4 className="text-lg font-semibold text-gray-900 mb-1">Company address</h4>
-                    <p className="text-gray-600">Plot No. 234 of Hitech Defence & Aerospace Park, Phase-2 Industrial Area, Bengaluru, Karnataka, India – 562135</p>
+                    <p className="text-gray-600">Plot No. 234 of Hi-tech Defence & Aerospace Park, Phase-2 Industrial Area, Bengaluru, Karnataka, India – 562135</p>
                   </div>
                 </div>
 

@@ -28,7 +28,7 @@ export default function Footer() {
                   <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M15 11a3 3 0 11-6 0 3 3 0 016 0z" />
                 </svg>
                 <p className="text-gray-400 text-sm">
-                  Plot No. 234 of Hitech Defence & Aerospace Park, Phase-2 Industrial Area, Bengaluru, Karnataka, India – 562135
+                  Plot No. 234 of Hi-tech Defence & Aerospace Park, Phase-2 Industrial Area, Bengaluru, Karnataka, India – 562135
                 </p>
               </div>
               <div className="flex items-center space-x-3">
@@ -128,7 +128,7 @@ export default function Footer() {
                     />
                   </svg>
                   <p className="text-gray-400 text-sm">
-                    Plot No. 234 of Hitech Defence & Aerospace Park, Phase-2
+                    Plot No. 234 of Hi-tech Defence & Aerospace Park, Phase-2
                     Industrial Area, Bengaluru, Karnataka, India – 562135
                   </p>
                 </div>
@@ -304,7 +304,7 @@ export default function Footer() {
                     />
                   </svg>
                   <p className="text-gray-400 text-sm">
-                    Plot No. 234 of Hitech Defence & Aerospace Park, Phase-2
+                    Plot No. 234 of Hi-tech Defence & Aerospace Park, Phase-2
                     Industrial Area, Bengaluru, Karnataka, India – 562135
                   </p>
                 </div>
